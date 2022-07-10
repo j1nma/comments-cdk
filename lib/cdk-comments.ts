@@ -33,7 +33,7 @@ export class CommentsStack extends Stack {
     // 'Post Comment' Lambda
     const postComment = new NodejsFunction.NodejsFunction(
       this,
-      "postComment",
+      "PostComment",
       {
         entry: path.join(__dirname, "..", "src", "postComment.ts"),
         handler: "handler",
