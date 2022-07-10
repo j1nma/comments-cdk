@@ -72,3 +72,4 @@ yarn-error.log
 output
 *.test.d.ts
 *.test.js
+*.out
